@@ -51,12 +51,18 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 # Protótipos de tela
 
 *&lt;Protótipos de tela&gt;*
-Identidade Visual 
+
 ![Identidade Visual](https://user-images.githubusercontent.com/80272512/219496774-9a10a7f6-e6e3-4ad6-9a08-54bf5d8f0db9.png)
 
 Layout das telas 
 
 ![Login](https://user-images.githubusercontent.com/80272512/219496919-0c78b01a-4c41-4001-b1e0-55d38df2c50c.png)
+![Professor Principal](https://user-images.githubusercontent.com/80272512/219497283-ba1dffbd-6a9a-4aed-b319-71b166434342.png)
+![Professor Ed.Física/Ingles](https://user-images.githubusercontent.com/80272512/219497711-b94263b5-4d03-43a1-94e8-6c58f4f44ab0.png)
+![Professor Ed.Física/Ingles01](https://user-images.githubusercontent.com/80272512/219497839-a50f0edd-015f-45e6-927f-42fb205b082a.png)
+
+
+
 
 
 
