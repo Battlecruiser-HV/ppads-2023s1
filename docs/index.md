@@ -51,6 +51,15 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 # Protótipos de tela
 
 *&lt;Protótipos de tela&gt;*
+Identidade Visual 
+![Identidade Visual](https://user-images.githubusercontent.com/80272512/219496774-9a10a7f6-e6e3-4ad6-9a08-54bf5d8f0db9.png)
+
+Layout das telas 
+
+![Login](https://user-images.githubusercontent.com/80272512/219496919-0c78b01a-4c41-4001-b1e0-55d38df2c50c.png)
+
+
+
 
 # Modelo de domínio
 
