@@ -47,6 +47,12 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 # Descrição dos casos de uso
 
 *&lt;Descrição dos casos de uso&gt;*
+![Capturar](https://user-images.githubusercontent.com/80272512/219515442-a1b4778a-4353-4be8-b8af-54db772dba54.PNG)
+![Capturar1](https://user-images.githubusercontent.com/80272512/219515511-05908fc3-2cab-4a82-8894-ff36a5a5239c.PNG)
+![Capturar2](https://user-images.githubusercontent.com/80272512/219515571-7299ee27-6205-41a8-b374-d4d78528333e.PNG)
+![Capturar3](https://user-images.githubusercontent.com/80272512/219515622-2921d37b-44a6-4e95-969d-3b0f49df16ed.PNG)
+![Capturar4](https://user-images.githubusercontent.com/80272512/219515712-591fb533-7b2d-4485-9ee3-1e53cd5397e7.PNG)
+
 
 # Protótipos de tela
 
