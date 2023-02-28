@@ -94,6 +94,11 @@ Professor Específico
 
 *&lt;Decisões de arquitetura&gt;*
 
+
+![Diagrama de Componente](https://user-images.githubusercontent.com/80272512/221996582-9e793f04-461c-4991-8d31-20579bdcf451.png)
+
+
+
 # Diagrama de implantação
 
 *&lt;Diagrama de implantação&gt;*
