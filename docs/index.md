@@ -78,8 +78,9 @@ Professor Específico
 ![Marcar Falta](https://user-images.githubusercontent.com/80272512/223227307-b12b8538-0246-40b9-8e29-22a9091c9b84.png)
 ![Falta Marcada](https://user-images.githubusercontent.com/80272512/223227379-932fc08b-ae86-456b-840e-14b582736916.png)
 ![Cancelar](https://user-images.githubusercontent.com/80272512/223227432-979e4ae7-b02c-4dae-a6b5-31119b68c5da.png)
-![Confirmar Faltas](https://user-images.githubusercontent.com/80272512/223227496-c0a495c2-e9c2-4bf0-a224-5cb6a2f6c68e.png)
 
+
+![Confirmar Faltas](https://user-images.githubusercontent.com/80272512/223398224-9c2f6ac6-e4b9-4ea7-9e96-d379c3888174.png)
 
 
 
