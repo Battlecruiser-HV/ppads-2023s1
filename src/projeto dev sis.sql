@@ -138,3 +138,31 @@ on A.Cod_aluno = F.Cod_aluno left join Turma T
 on T.Cod_turma = A.Cod_Turma left join Turma T1
 on T1.Horario_aula = T.Horario_aula
 where(1150 = T1.Horario_aula);
+
+--Mostra o numero de faltas de um aluno a partir de seu nome
+select count(A.Cod_aluno)
+from Faltas F left join Aluno A
+on A.Cod_aluno = F.Cod_aluno
+where ('Carol' = A.Nome_aluno);
+
+--Seleciona todas as faltas entre datas especificadas
+select A.nome_aluno,A.email_responsavel,A.Cod_Turma,F.dia
+from Faltas F right join Aluno A
+on A.Cod_aluno = F.Cod_aluno
+where F.dia between to_date('10/03/2023','dd/mm/yyyy') and to_date('22/03/2023','dd/mm/yyyy');
+
+--Seleciona todas as faltas de aluno contadas entre uma data especifica
+select count(F.cod_aluno),A.Nome_aluno
+from Faltas F left join Aluno A
+on A.Cod_aluno = F.Cod_aluno
+where F.dia between to_date('10/03/2023','dd/mm/yyyy') and to_date('22/03/2023','dd/mm/yyyy')
+group by A.nome_aluno;
+
+--Seleciona todas as faltas de aluno contadas
+select count(F.cod_aluno),A.Nome_aluno
+from Faltas F left join Aluno A
+on A.Cod_aluno = F.Cod_aluno
+group by A.nome_aluno;
+
+
+
