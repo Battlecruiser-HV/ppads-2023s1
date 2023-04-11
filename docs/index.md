@@ -81,7 +81,7 @@ Professor Específico
 
 # Modelo de domínio
 
-*&lt;Modelo de domínio&gt;*
+![Modelo de dominio](https://user-images.githubusercontent.com/100203253/231142064-951e5be1-d455-487a-95c7-4764c7b3bbe5.png)
 
 # Decisões de arquitetura
 
