@@ -88,7 +88,6 @@ Professor Específico
 
 
 # Modelo de domínio
-![Blank diagram](https://user-images.githubusercontent.com/78962671/221851621-41976280-8375-49d5-9594-323b4208573e.png)
 
 ![Modelo de dominio](https://user-images.githubusercontent.com/100203253/231142064-951e5be1-d455-487a-95c7-4764c7b3bbe5.png)
 
