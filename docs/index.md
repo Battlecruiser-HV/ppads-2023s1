@@ -110,7 +110,8 @@ Diagramas de Sequência
 *&lt;Decisões de arquitetura&gt;*
 
 # Diagrama de implantação
-![Diagrama de Implantação](https://user-images.githubusercontent.com/100203031/221992040-499fa780-84ad-4ba4-882c-3059dfbcb36b.png)
+![Diagrama de Implantação](https://user-images.githubusercontent.com/80272512/231299302-4d94d19c-e07a-480a-9a28-6cf02a2723d3.PNG)
+
 
 
 *&lt;Diagrama de implantação&gt;*
