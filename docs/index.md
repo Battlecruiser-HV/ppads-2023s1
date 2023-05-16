@@ -20,6 +20,7 @@
 - [Modelo de domínio](#modelo-de-domínio)
 - [Decisões de arquitetura](#decisões-de-arquitetura)
 - [Diagrama de implantação](#diagrama-de-implantação)
+- [Plano de Testes](#plano-de-testes)
 - [Referências](#referências)
 
 
@@ -115,6 +116,8 @@ Diagramas de Sequência
 
 
 *&lt;Diagrama de implantação&gt;*
+
+# Plano de Testes
 
 # Referências
 
