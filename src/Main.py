@@ -19,7 +19,51 @@ def Index():
 def turmas(n):
     n1 = n
     if request.method == "POST":
-        return render_template("turmas.html", numero=n1)
+        faltascod = request.form.getlist("cod_aluno")
+        faltas710 = request.form.getlist("horario1")
+        faltas1030 = request.form.getlist("horario2")
+        cod_prof = request.form.getlist("codprof")
+        print(faltascod)
+        print(faltas710)
+        print(faltas1030)
+        print(cod_prof)
+        # fmt: off
+        for i in range(len(faltascod)):
+            print('batata')
+            print (n1)
+            if n1 == '1':
+                print('batata 1')
+                print(faltas710[i])
+                print(faltas1030[i])
+                if faltas710[i] == '0' and faltas1030[i] == '2':
+                    send = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},100,CURRENT_DATE)")
+                    print(send.context)
+                    print("teste1")
+                elif faltas710[i] == '1' and faltas1030[i] == '0':
+                    send = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},100,CURRENT_DATE)")
+                    print(send.context)
+                    print('teste 2')
+                elif faltas710[i] == '1' and faltas1030[i] == '2':
+                    send = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},100,CURRENT_DATE)")
+                    send2 = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},100,CURRENT_DATE)")
+                    print(send.context)
+                    print(send2.context)
+                    print('teste 3')
+            elif n1 == '2':
+                if faltas710[i] != '0' and faltas1030[i] == '2':
+                    send = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},101,CURRENT_DATE)")
+                    print(send.context)
+                elif faltas710[i] == '1' and faltas1030[i] != '0':
+                    send = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},101,CURRENT_DATE)")
+                    print(send.context)
+                elif faltas710[i] == '1' and faltas1030[i] == '2':
+                    send = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},101,CURRENT_DATE)")
+                    send2 = requisicao.conexaoInsert(f"INSERT INTO faltas values({faltascod[i]},101,CURRENT_DATE)")
+                    print(send.context)
+                    print(send2.context)
+        # fmt:on
+        getFaltas = requisicao.conexao(f"SELECT * FROM faltas")
+        return render_template("faltas.html", getFaltas=getFaltas)
     else:
         n1 = n
         # fmt: off

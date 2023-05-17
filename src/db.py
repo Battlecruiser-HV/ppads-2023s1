@@ -12,5 +12,10 @@ class dbcon:
         responsedp = self.conn.execute(text(comandos))
         return responsedp
 
+    def conexaoInsert(self, comandos):
+        responsedb = self.conn.execute(text(comandos))
+        self.conn.commit()
+        return responsedb
+
 
 # fmt: on
