@@ -119,6 +119,11 @@ Diagramas de Sequência
 
 # Plano de Testes
 
+
+# Dashboard
+
+![dashboard ppds](https://github.com/Battlecruiser-HV/ppads-2023s1/assets/78962671/3a332e3e-d3d9-4431-91e7-704bc2956496)
+
 # Referências
 
 *&lt;Lista de referências&gt;*
