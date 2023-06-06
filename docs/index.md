@@ -118,7 +118,7 @@ Diagramas de Sequência
 *&lt;Diagrama de implantação&gt;*
 
 # Plano de Testes
-<h4><a href= "[https://www.mackenzie.br](https://github.com/Battlecruiser-HV/ppads-2023s1/blob/master/docs/Planos%20de%20teste%20-%20Final.pdf)">Plano de Testes e testes completos</a></h4>
+<h4><a href= "https://www.mackenzie.br](https://github.com/Battlecruiser-HV/ppads-2023s1/blob/master/docs/Planos%20de%20teste%20-%20Final.pdf">Plano de Testes e testes completos</a></h4>
 
 # Dashboard
 
